@@ -1,0 +1,12 @@
+* Problem Sets
+  These codes are the AC solutions of 2020 Fall Pf. Kai-Chiang Wu's Introduction to Algorithms course in NCTU CS.
+  Includes problems in lab1 to lab6 except the midterm problems (because I didn't do them).
+  The problem sets can be found on [[https://oj.nctu.edu.tw/groups/30/bulletins/][FormosaOJ]] if you can login.
+* Environment Recommendation
+** Editor
+  GNU Emacs 27.1 with LSP-mode + Clangd
+** Compile command and options
+  This is my compilation setting, but I think the code is compatible for C++ Version above C++11 (both clang++ and g++).
+#+BEGIN_SRC shell
+  g++ 1075.cpp -std=c++14 -O2 -o 1075
+#+END_SRC
